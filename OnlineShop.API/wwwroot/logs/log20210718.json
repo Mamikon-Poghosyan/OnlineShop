@@ -1,0 +1,158 @@
+2021-07-18 16:00:31.009 +04:00 [ERR] Failed executing DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [CategoryID] int NOT NULL,
+    [CategoryName] varchar(15) NULL,
+    [Description] ntext NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([CategoryID])
+);
+2021-07-18 16:13:59.883 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-18 16:14:02.183 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method finished
+2021-07-18 16:14:05.426 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-18 16:14:05.478 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method finished
+2021-07-18 16:14:17.591 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-18 16:14:17.610 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method finished
+2021-07-18 16:14:20.683 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-18 16:14:20.995 +04:00 [ERR] 
+OnlineShop.Core.Exceptions.LogicException: Wrong User Id
+   at OnlineShop.BLL.Operations.SignInSystemOperation.Get(Int32 id) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.BLL\Operations\SignInSystemOperation.cs:line 31
+   at OnlineShop.API.Controllers.UserController.GetId(Int32 id) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Controllers\UserController.cs:line 28
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OnlineShop.API.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Middlewares\ErrorHandlingMiddleware.cs:line 25
+2021-07-18 16:15:44.534 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-18 16:15:46.261 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method finished
+2021-07-18 16:20:56.310 +04:00 [ERR] 
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OnlineShop.API.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Middlewares\ErrorHandlingMiddleware.cs:line 25
+2021-07-18 16:20:56.751 +04:00 [ERR] 
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.TryServeStaticFile(HttpContext context, String contentType, PathString subPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OnlineShop.API.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Middlewares\ErrorHandlingMiddleware.cs:line 25
+2021-07-18 16:21:05.597 +04:00 [ERR] 
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OnlineShop.API.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Middlewares\ErrorHandlingMiddleware.cs:line 25
+2021-07-18 16:21:08.691 +04:00 [ERR] 
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OnlineShop.API.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Middlewares\ErrorHandlingMiddleware.cs:line 25
+2021-07-18 16:21:22.517 +04:00 [ERR] 
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OnlineShop.API.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Middlewares\ErrorHandlingMiddleware.cs:line 25
+2021-07-18 16:21:51.038 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-18 16:21:52.773 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method finished
+2021-07-18 16:22:30.055 +04:00 [ERR] 
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OnlineShop.API.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Middlewares\ErrorHandlingMiddleware.cs:line 25
+2021-07-18 16:22:30.435 +04:00 [ERR] 
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.TryServeStaticFile(HttpContext context, String contentType, PathString subPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OnlineShop.API.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Middlewares\ErrorHandlingMiddleware.cs:line 25
+2021-07-18 16:22:39.411 +04:00 [ERR] 
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OnlineShop.API.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Middlewares\ErrorHandlingMiddleware.cs:line 25
+2021-07-18 16:22:42.190 +04:00 [ERR] 
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OnlineShop.API.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Middlewares\ErrorHandlingMiddleware.cs:line 25
+2021-07-18 16:23:36.458 +04:00 [ERR] 
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OnlineShop.API.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Middlewares\ErrorHandlingMiddleware.cs:line 25
+2021-07-18 16:23:36.877 +04:00 [ERR] 
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.TryServeStaticFile(HttpContext context, String contentType, PathString subPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at OnlineShop.API.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Middlewares\ErrorHandlingMiddleware.cs:line 25
+2021-07-18 16:27:30.109 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-18 16:27:31.777 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method finished
+2021-07-18 16:27:58.917 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-18 16:27:58.968 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method finished
+2021-07-18 16:29:24.764 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-18 16:29:26.401 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method finished

@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Extension\\OnlineShop.Extension.csproj": {}
+  },
+  "projects": {
+    "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.BLL\\OnlineShop.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.BLL\\OnlineShop.BLL.csproj",
+        "projectName": "OnlineShop.BLL",
+        "projectPath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.BLL\\OnlineShop.BLL.csproj",
+        "packagesPath": "C:\\Users\\NewGames\\.nuget\\packages\\",
+        "outputPath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NewGames\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Core\\OnlineShop.Core.csproj": {
+                "projectPath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Core\\OnlineShop.Core.csproj"
+              },
+              "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.DAL\\OnlineShop.DAL.csproj": {
+                "projectPath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.DAL\\OnlineShop.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Core\\OnlineShop.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Core\\OnlineShop.Core.csproj",
+        "projectName": "OnlineShop.Core",
+        "projectPath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Core\\OnlineShop.Core.csproj",
+        "packagesPath": "C:\\Users\\NewGames\\.nuget\\packages\\",
+        "outputPath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NewGames\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.DAL\\OnlineShop.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.DAL\\OnlineShop.DAL.csproj",
+        "projectName": "OnlineShop.DAL",
+        "projectPath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.DAL\\OnlineShop.DAL.csproj",
+        "packagesPath": "C:\\Users\\NewGames\\.nuget\\packages\\",
+        "outputPath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NewGames\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Core\\OnlineShop.Core.csproj": {
+                "projectPath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Core\\OnlineShop.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Extension\\OnlineShop.Extension.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Extension\\OnlineShop.Extension.csproj",
+        "projectName": "OnlineShop.Extension",
+        "projectPath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Extension\\OnlineShop.Extension.csproj",
+        "packagesPath": "C:\\Users\\NewGames\\.nuget\\packages\\",
+        "outputPath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Extension\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NewGames\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.BLL\\OnlineShop.BLL.csproj": {
+                "projectPath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.BLL\\OnlineShop.BLL.csproj"
+              },
+              "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.DAL\\OnlineShop.DAL.csproj": {
+                "projectPath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.DAL\\OnlineShop.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+2021-07-16 13:10:14.033 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-16 13:10:14.265 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method finished
+2021-07-16 13:10:19.977 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-16 13:10:19.987 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method finished
+2021-07-16 15:39:31.727 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-16 15:39:31.957 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method finished
+2021-07-16 15:39:34.557 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-16 15:39:34.888 +04:00 [ERR] 
+OnlineShop.Core.Exceptions.LogicException: Wrong User Id
+   at OnlineShop.BLL.Operations.SignInSystemOperation.Get(Int32 id) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.BLL\Operations\SignInSystemOperation.cs:line 29
+   at OnlineShop.API.Controllers.SignInSystemController.GetId(Int32 id) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Controllers\SignInSystemController.cs:line 26
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OnlineShop.API.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Basic It Center\Projects\Online Shop\OnlineShopDB\OnlineShop.API\Middlewares\ErrorHandlingMiddleware.cs:line 25
+2021-07-16 15:39:37.863 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method started
+2021-07-16 15:39:37.873 +04:00 [INF] SignInSystemOperations --- GetSignInSystem method finished

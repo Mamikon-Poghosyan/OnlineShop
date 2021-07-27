@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "g4UFf94RB10UFffNennG6LGy3EeK8zUzxP4Q72Oz42VPx9WqZDtplzX92j6xvCiPJVi7ffE7HhBTioFuBGjw6w==",
+  "success": true,
+  "projectFilePath": "D:\\Basic It Center\\Projects\\Online Shop\\OnlineShopDB\\OnlineShop.Core\\OnlineShop.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NewGames\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\NewGames\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\NewGames\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\NewGames\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
+    "C:\\Users\\NewGames\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\NewGames\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\NewGames\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
